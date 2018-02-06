@@ -1,0 +1,59 @@
+/***************** NAV *****************/
+
+nav a,i:hover {
+  color: darkgray;
+}
+nav li{
+  background-color: goldenrod;
+  display: flex; 
+  justify-content:space-around;
+  flex-flow: row wrap;
+  padding: 1rem 1rem;
+  
+}
+nav a,i{
+  color: white;
+  text-decoration: none;
+
+}
+
+body {
+  background-color: gold;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 7rem;
+  margin: auto;
+  padding: 6rem;
+}
+.mainimg {
+  width:100%;
+}
+p{
+  margin: auto;
+  font-size:2rem;
+  color: white;
+  padding: 6rem;
+
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.treasurebox {
+  width: 15%;
+  text-align:center;
+  padding: 1rem;
+  margin: 2rem 2rem;
+  align-self: flex-start;
+}
+h3 {
+  padding:1rem; 
+  font-size: 2rem;
+  color:white;
+}
